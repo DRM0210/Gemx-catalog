@@ -1,0 +1,53 @@
+
+/* remove border radius for the tab */
+.nav-pills > li > a {
+  border-radius: 0;
+  text-decoration: none;
+  color: black;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+  background-color: #f4f4f4 !important;
+  color: #000 !important;
+}
+
+.sidenav{
+  list-style: none;
+    display: flex;
+    flex-direction: column;
+    background: #f4f4f4;
+}
+.nav-pills>li {
+  float: left;
+  padding: 10px 0px;
+ border-bottom: 1px solid black;
+}
+
+.user-dashboard-card.style-01 {
+  background-color: #004a99;
+  color: white;
+  height: 147px;
+  text-align: center;
+  padding: 36px 0 0 0;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: 'FontAwesome';
+}
+
+/* edit passwored */
+
+.eye-icon {
+  position: absolute;
+  right: 31px;
+  transform: translateY(-117%);
+  cursor: pointer;
+  color: #eae1e1;
+}
+
+
+.eye-icon:before {
+  content: "\f06e";
+  font-family: 'FontAwesome';
+  font-size: 15px;
+  color: #8b8b8b;
+}
+
